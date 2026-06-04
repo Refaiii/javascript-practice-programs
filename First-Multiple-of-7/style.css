@@ -1,0 +1,18 @@
+#result{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+}
+
+.number-box{
+    width:120px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#16a34a;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    border-radius:20px;
+}
