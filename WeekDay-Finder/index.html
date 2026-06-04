@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekday Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>Weekday Finder</h1>
+      <p>Enter a number from 1 to 7 to find the day of the week.</p>
+
+      <input
+        type="number"
+        id="dayInput"
+        placeholder="Enter number 1 - 7"
+        min="1"
+        max="7"
+      />
+
+      <div class="buttons">
+        <button onclick="findWeekDay()">Find Day</button>
+        <button class="clear-btn" onclick="clearResult()">Clear</button>
+      </div>
+
+      <h2 id="result"></h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
